@@ -1,17 +1,21 @@
-#container{
+#container {
   text-align: center;
 }
+
 .btn {
   background-color: #fff;
-  color: #000;
-  border: 2px solid #000;
+  color: #333;
+  border: 2px solid #333;
   padding: 10px 40px;
   margin: 50px 0;
   font-weight: 600;
   cursor: pointer;
-  transition: color 0.3s ease 1s, background-color 0.3s ease 2s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
+
 .btn:hover {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
 }
+/*# sourceMappingURL=style.css.map */
