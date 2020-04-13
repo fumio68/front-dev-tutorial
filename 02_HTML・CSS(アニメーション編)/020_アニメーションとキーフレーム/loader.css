@@ -13,10 +13,6 @@ body {
           animation-timing-function: ease;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
 }
 
 .paused {
