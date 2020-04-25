@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', function(){
-  const btn = document.querySelector('#btn');
-  const ta = new TweenTextAnimation('.tween-animate-title');
+  const ta = new TextAnimation('.animate-title');
   ta.animate();
 });
 
@@ -8,7 +7,6 @@ class TextAnimation {
   constructor(el){
     this.DOM = {};
     this.DOM.el =document.querySelector(el);
-    // this.DOM.el = document.querySelector(el);
     this.chars = this.DOM.el.innerHTML.trim().split("");
     this.DOM.el.innerHTML = this._splitText();
   }
@@ -39,6 +37,5 @@ class TweenTextAnimation extends TextAnimation {
         opacity: 1
       });
     });
-    this.DOM.el.classList.toggle('inview');
   }
 }

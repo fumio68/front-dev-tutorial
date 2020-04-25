@@ -12,19 +12,24 @@ body {
 
 .animate-title,
 .tween-animate-title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
   color: white;
   opacity: 0;
   font-size: 2em;
 
   &.inview {
     opacity: 1;
+
     & .char {
       display: inline-block;
     }
+  }
+
+  & .char {
+    opacity: 0;
   }
 }
 
